@@ -1,3 +1,5 @@
+/* #region Body */
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -15,41 +17,10 @@ cursor: pointer;
 ul, ol {
     list-style-type: none;
 }
-h3 {
-    font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-}
-h2 {
-    font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-}
-h1 {
-    font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
-        letter-spacing: 0.02em;
-        color: #fff;
-        text-align: center;
-}
 
-p {
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-}
+/* #endregion */
 
-/* #region Header */
-.header-page {}
-
-.nav-page {}
+/* #region NAV */
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -60,96 +31,123 @@ p {
         text-transform: uppercase;
         color: #4d5ae5;
 }
-
-.logo-span {
-    color: #2e2f42;
-}
-.end-span {
-    color:#f4f4fd;
-}
-
-.nav-header-link {
-    
-}
-
-.nav-item {
-   
-    }
-    
-
-.nav-item-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.span-logo {
     color:#2e2f42;
 }
-.nav-item-link:hover, 
-.nav-item-link:focus {
+.nav-list {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.nav-list:hover,
+.nav-list:focus {
     color:#404bbf;
 }
-
-/* #endregion */
-
-/* #region Adress */
-.contacts {}
-.main-contacts {
-    font-style:normal;
+.contacts {
+    font-style: normal;
 }
-
-.list-contacts {
-    
-}
-
-.contacts-ref {
+.contacts-list{
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-    color: #434455;
+        color: #434455;
 }
-.contacts-ref:hover,
-.contacts-ref:focus {
-color: #404bbf;
+.contacts-list:hover,
+.contacts-list:focus {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #404bbf
 }
 
 /* #endregion */
-.team-section {
-    background-color: #f4f4fd;
-}
-.title-team {
-    text-align: center;
-    text-transform: capitalize;
-}
-/* #region Hero */
 
-.hero {
-background-color: #2e2f42;
+/* #region Section-1 */
+
+.section-one {
+    background-color: #2e2f42;
 }
-.hero-title {
-
+.main-title {
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #ffffff;
 }
-
-.main-title {}
-
-.hero-bt {
+.button-title {
+    background-color: #4d5ae5;
+    font-family: "Roboto",sans-serif;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
-        color: #fff;
-        background-color: #4d5ae5;
+        color: #ffffff;
 }
-.hero-bt:hover,
-.hero-bt:focus {
-    background-color:#404bbf;
+.button-title:hover,
+.button-title:focus {
+    background-color: #404bbf;
 }
 
 /* #endregion */
 
-.footer-main {
+/* #region Section-2 */
+
+.section-two-title {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.section-two-paragraph {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+/* #endregion */
+
+/* #region Section-3 */
+
+.section-three {
+    background-color: #f4f4fd;
+}
+.section-three-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+        text-transform: capitalize;
+}
+.team-list {
+    background-color: #FFFFFF;
+}
+
+/* #endregion */
+
+/* #region Footer */
+
+.footer {
     background-color: #2e2f42;
 }
-.footer-text {
-    color:#f4f4fd;
+.span-logo-end {
+    color: #f4f4fd;
 }
+.end-paragraph {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd
+}
+
+/* #endregion */
