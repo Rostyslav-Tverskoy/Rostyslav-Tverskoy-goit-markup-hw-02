@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -25,7 +25,6 @@ h2 {
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
-        text-align: center;
         color: #2e2f42;
 }
 h1 {
@@ -61,6 +60,9 @@ p {
 
 .logo-span {
     color: #4d5ae5;
+}
+.end-span {
+    color:#f4f4fd;
 }
 
 .nav-header-link {
@@ -106,7 +108,9 @@ color: #404bbf;
 }
 
 /* #endregion */
-
+.team-section {
+    background-color: #f4f4fd;
+}
 /* #region Hero */
 
 .hero {
@@ -132,3 +136,10 @@ background-color: #2e2f42;
 }
 
 /* #endregion */
+
+.footer-main {
+    background-color: #2e2f42;
+}
+.footer-text {
+    color:#f4f4fd;
+}
