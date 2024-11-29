@@ -23,7 +23,7 @@ h3 {
 h2 {
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
@@ -31,11 +31,9 @@ h2 {
 h1 {
     font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
-        text-align: center;
         color: #fff;
-        background-color: #2e2f42;
 }
 
 p {
@@ -55,7 +53,7 @@ p {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.16;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #2e2f42;
@@ -70,15 +68,20 @@ p {
 }
 
 .nav-item {
-    font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+   
     }
     
 
 .nav-item-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color:#2e2f42;
+}
+.nav-item-link:hover, 
+.nav-item-link:focus {
+    color:#404bbf;
 }
 
 /* #endregion */
@@ -87,14 +90,45 @@ p {
 .contacts {}
 
 .list-contacts {
+    
+}
+
+.contacts-ref {
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+    color: #434455;
+}
+.contacts-ref:hover,
+.contacts-ref:focus {
+color: #404bbf;
 }
 
-.contacts-ref {
-    color: #434455;
+/* #endregion */
+
+/* #region Hero */
+
+.hero {
+background-color: #2e2f42;
+}
+.hero-title {
+
+}
+
+.main-title {}
+
+.hero-bt {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #fff;
+        background-color: #4d5ae5;
+}
+.hero-bt:hover,
+.hero-bt:focus {
+    background-color:#404bbf;
 }
 
 /* #endregion */
